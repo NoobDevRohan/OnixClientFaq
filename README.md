@@ -22,10 +22,9 @@
 
 <li><p><a href="#-how-do-i-apply-for-youtube-rolerank-in-the-discord-youtuber">Youtube role</a></p></li>
 
-<li><p><a href="#-i-need-the-onix-logo-for-a-thumbnail">Onix logo for thumbnails</a><br></p>
+<li><p><a href="#-i-need-the-onix-logo-for-a-thumbnail">Onix logo for thumbnails</a><br></p></li>
 
-<details>
-<summary>Common Issues</summary>
+<b>Common Issues</b><br>
 
 <li><p><a href="#-when-i-open-the-client-i-get-an-error-saying-you-are-attempting-to-open-a-file-of-type-system-file-why-does-this-happen">You are attempting to open a file of type system file</a></p></li>
 
