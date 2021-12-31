@@ -2,46 +2,46 @@
    <summary>➜ Click here to Jump directly to:</summary>
 
 <ul>
-<li><p><a href="#-where-can-i-download-onix-client">Download Client</a></p></li>
+<li><a href="#-where-can-i-download-onix-client">Download Client</a></li>
 
-<li><p><a href="#%EF%B8%8F-what-features-do-we-have-in-the-client">Client Features</a></p></li>
+<li><a href="#%EF%B8%8F-what-features-do-we-have-in-the-client">Client Features</a></li>
 
-<li><p><a href="#-where-can-i-find-the-latest-changelog">Latest Changelog</a></p></li>
+<li><a href="#-where-can-i-find-the-latest-changelog">Latest Changelog</a></li>
 
-<li><p><a href="#-is-onix-client-safe">Is it safe?</a></p></li>
+<li><a href="#-is-onix-client-safe">Is it safe?</a></li>
 
-<li><p><a href="#-how-can-i-get-onix-ui">Onix UI</a></p></li>
+<li><a href="#-how-can-i-get-onix-ui">Onix UI</a></li>
 
-<li><p><a href="#-what-devices-does-onix-client-support">Device Support</a></p></li>
+<li><a href="#-what-devices-does-onix-client-support">Device Support</a></li>
 
-<li><p><a href="#list-of-supported-versions">Supported Versions</a></p></li>
+<li><a href="#list-of-supported-versions">Supported Versions</a></li>
 
-<li><p><a href="#-how-can-i-support-onix-and-the-client">Supporting the Client</a></p></li>
+<li><a href="#-how-can-i-support-onix-and-the-client">Supporting the Client</a></li>
 
-<li><p><a href="#-do-i-get-beta-access-if-i-boost">BETA access on boost</a></p></li>
+<li><a href="#-do-i-get-beta-access-if-i-boost">BETA access on boost</a></li>
 
-<li><p><a href="#-how-do-i-apply-for-youtube-rolerank-in-the-discord-youtuber">Youtube role</a></p></li>
+<li><a href="#-how-do-i-apply-for-youtube-rolerank-in-the-discord-youtuber">Youtube role</a></li>
 
-<li><p><a href="#-i-need-the-onix-logo-for-a-thumbnail">Onix logo for thumbnails</a><br></p></li>
+<li><a href="#-i-need-the-onix-logo-for-a-thumbnail">Onix logo for thumbnails</a><br></li>
 
 <b>Common Issues</b><br>
 
-<li><p><a href="#-when-i-open-the-client-i-get-an-error-saying-you-are-attempting-to-open-a-file-of-type-system-file-why-does-this-happen">You are attempting to open a file of type system file</a></p></li>
+<li><a href="#-when-i-open-the-client-i-get-an-error-saying-you-are-attempting-to-open-a-file-of-type-system-file-why-does-this-happen">You are attempting to open a file of type system file</a></li>
 
-<li><p><a href="#-when-i-inject-my-game-crashes-why-does-this-happen">Crashing on injecting</a></p></li>
+<li><a href="#-when-i-inject-my-game-crashes-why-does-this-happen">Crashing on injecting</a></li>
 
-<li><p><a href="#-why-does-it-say-as-nobody-how-on-discord-instead-of-my-gamertag">Discord issue</a></p></li>
+<li><a href="#-why-does-it-say-as-nobody-how-on-discord-instead-of-my-gamertag">Discord issue</a></li>
 
-<li><p><a href="#common-launcher-errors">Launcher issues</a></p></li>
+<li><a href="#common-launcher-errors">Launcher issues</a></li>
 
-<li><p><a href="#-why-are-my-rainbow-modules-not-syncedin-time-with-each-other">Rainbow issues</a></p></li>
+<li><a href="#-why-are-my-rainbow-modules-not-syncedin-time-with-each-other">Rainbow issues</a></li>
 
-<li><p><a href="#-why-dont-the-potionhud-icons-show-up">Potion HUD issue</a></p></li>
+<li><a href="#-why-dont-the-potionhud-icons-show-up">Potion HUD issue</a></li>
 
-<li><p><a href="#-my-antivirus-blocks-the-client">Antivirus issue</a>
+<li><a href="#-my-antivirus-blocks-the-client">Antivirus issue</a>
 </ul>
 </details>
-</details></p></li>
+</details></li>
 
 
 # [![Onix Client Logo](https://raw.githubusercontent.com/HugoNotHere/OnixClientFaq/main/onixlogosmall.png)](https://discord.gg/OnixClient) Onix Client FAQ
