@@ -1,5 +1,5 @@
 <details>
-<summary>➜ Click here to Jump directly to:</summary
+  <summary>➜ Click here to Jump directly to:</summary>
 <ul>
 <li><a href="#-where-can-i-download-onix-client">Download Client</a></li>
 <li><a href="#%EF%B8%8F-what-features-do-we-have-in-the-client">Client Features</a></li>
