@@ -39,9 +39,10 @@
 <li><p><a href="#-why-dont-the-potionhud-icons-show-up">Potion HUD issue</a></p></li>
 
 <li><p><a href="#-my-antivirus-blocks-the-client">Antivirus issue</a>
+</ul>
 </details>
 </details></p></li>
-</ul>
+
 
 # [![Onix Client Logo](https://raw.githubusercontent.com/HugoNotHere/OnixClientFaq/main/onixlogosmall.png)](https://discord.gg/OnixClient) Onix Client FAQ
 
