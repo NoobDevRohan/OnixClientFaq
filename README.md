@@ -65,6 +65,13 @@ Right click the Start button and click "System", which takes you to this screen:
 
 ### We have no plans to support any devices other than Windows PCs. Don't ask for it.
 
+## 🔄 The launcher didn't auto update. How do I fix this?
+Press the Windows Key + R and paste the following:
+
+`cmd.exe /c del "%localappdata%\Onix Launcher\OnixClient.dll" && pause`
+
+This will delete the old Onix Client dll, and the launcher will install the new one on launch.
+
 ## 🌊 When I open the client, I get an error saying: "You are attempting to open a file of type 'system file'". Why does this happen?
 
 This is because you are trying to open the DLL, which only works with other injectors. The DLL file cannot be opened and is not meant to be either. If you want to use this method please check out the Onix injector. If you use a third-party injector, we are not responsible for anything that might happen.
@@ -79,25 +86,16 @@ Your game is most likely on an unsupported version. If you are below 1.16.40, yo
 
 ### List of supported versions:
 ```
-1.18.2
-1.18.1
-1.18.0
-1.17.41
-1.17.40
-1.17.34
-1.17.32
-1.17.30
-1.17.11
-1.17.10
-1.17.2
-1.17.0
-1.16.221
-1.16.220
-1.16.210
-1.16.201
-1.16.200
-1.16.100 (partial support)
-1.16.40
+(1.18)     (1.17)     (1.16)
+1.18.12    1.17.41    1.16.221
+1.18.10    1.17.40    1.16.220
+1.18.2     1.17.34    1.16.210
+1.18.1     1.17.32    1.16.201
+1.18.0     1.17.30    1.16.200
+           1.17.11    1.16.100 (partial)
+           1.17.10    1.16.40
+           1.17.2
+           1.17.0
 ```
 
 ## 🧥 Why does it say "as nobody (HOW)" on Discord instead of my Gamertag?
@@ -106,17 +104,21 @@ Make sure you have the Xbox Console Companion, which you can download [here](htt
 
 If you have already downloaded Xbox Console Companion, log out and log back in to fix it.
 
+## ❓ I clicked Launch and I see the "OnixClient on top!" splash text. Now what?
+
+Go to a world or server and press L or Insert, then you'll be able to see the Client Settings button. To activate modules, right-click on them.
+
 ## Common launcher errors
 
 ### 🏢 Architecture Error
-![Architecture Error](https://user-images.githubusercontent.com/64127681/139365553-b57f8306-24de-4b1d-b0c8-5ff4b5fc9c95.png)
+![Architecture Error V2](https://user-images.githubusercontent.com/71997480/155266817-c6c7fb22-56f8-4c3c-98d9-6c3fc8849669.png)
 
 You have a 32-bit version of Minecraft. This is usually branded under FPS Boosting or Lag-Free AppX files. These are not compatible with Onix Client.
 
 ### ⛔ Unsupported Version
 ![Unsupported Version](https://user-images.githubusercontent.com/64127681/139366307-d319f1ea-36c3-4978-b8ba-ad3cd891141e.png)
 
-You have a version of Minecraft that is not supported. You can see this list of supported versions [here](https://github.com/notJudahRR/OnixClientFaq#-list-of-supported-versions).
+You have a version of Minecraft that is not supported. You can see this list of supported versions [here](https://github.com/HugoNotHere/OnixClientFaq#list-of-supported-versions).
 
 ### 💉 Injection Error
 ![Injection Error](https://user-images.githubusercontent.com/64127681/139366443-21a01000-36c3-44a0-842e-30030bdf31d5.png)
@@ -125,11 +127,7 @@ An error occurred while trying to inject Onix Client. This may be due to your an
 
 ## 🎨 How can I get Onix UI?
 
-You can download the Onix UI [here](https://cdn.discordapp.com/attachments/833457218040758272/884252116355526726/onixui.mcpack). This was made by rice#2532 (aka Riceexe). **This is not maintained by the Onix team and will never have any updates in the future.** 
-
-If you use the UI on version 1.17+, the pause menu might break. Use this [pack](https://cdn.discordapp.com/attachments/814260749232898058/842613971751665704/PauseMenuFixByRice.mcpack) to fix it. This was also made by rice.
-![OnixUI Image 1](https://camo.githubusercontent.com/afebc1c9e86f13b9b85181aa57b0b82d20ccda85c3e7b51215273a4925f2cbba/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3833333435373231383034303735383237322f3838343235323533383434393332363131302f756e6b6e6f776e2e706e67)
-![OnixUI Image 2](https://camo.githubusercontent.com/848ce8c43d80b1c8d1a6a63282c36d13fdb0cf5f5bba92ee158c89fe0cab753e/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3833333435373231383034303735383237322f3838343235323734373233373536383536322f756e6b6e6f776e2e706e67)
+It's being remade as of recently. You'll have to wait.
 
 ## 💰 How can I support Onix and the client?
 
@@ -137,7 +135,7 @@ You can support us by [becoming a patron](https://www.patreon.com/onixclient). T
 
 ## 🌈 Why are my rainbow modules not synced/in time with each other?
 
-Open chat, and type in ```.syncrainbow```, hit Enter. This should sync the modules together.
+Press L, click on Client Settings, then turn on "Sync All Rainbow" on the Global Settings. This should sync the modules together.
 
 ## 🔎 Why is the zoom not working with my hotkey?
 
@@ -149,7 +147,7 @@ Hold CTRL + L.
 
 ## 💺 What's the latest version of the client?
 
-The current latest version is 2.69.
+The current latest version is 2.70.
 
 ## ⚙️ What features do we have in the client?
 
@@ -198,10 +196,6 @@ Client Side Nick (.nick)
 ```
 
 Say ```.help``` in chat for a complete list of Onix commands.
-
-## 🗝️ How do I open module settings?
-
-Press L or Insert, then click "Module Settings".
 
 ## 🎥 How do I apply for YouTube Role/Rank in the Discord? (@Youtuber)?
 
@@ -256,18 +250,31 @@ Download [this pack](http://www.mediafire.com/file/kqyjo9s9ld39nkn/No+Red+Arrow+
 
 ## 📋 Where can I find the latest changelog?
 
-### Changelog for OnixClient 2.69
+### Changelog for OnixClient 2.70
 
 ```
-- various fixes for Item Physics in version 1.18.0
-- killing mobs or reloading item entities will still cause them to spin forever as if they were still in air, this is a 1.18 issue where items are actually flying over the ground.
-- various bug fixes for Keystrokes
-- limited the Creative Tools autoclicker to 200 CPS
-- custom crosshair will now disable itself if an invalid crosshair is selected
-- improved the description for Waypoint and Audio Subtitles
-- fixed an issue where loading the modules far from the corners reposition to incorrect spots
-- fixed an issue when migrating a config from the previous update that would cause a blank gui 
-- added support for 1.18.2
+Client:
+- Updated to 1.18.10 and 1.18.12
+- Fixed crashes related to AutoGG
+
+QOL fixes/tweaks:
+- Re-enabled FPS showing in the Java Debug Menu
+- Fixed block position in Java Debug Menu occasionally reading inaccurately
+- Speed display now works properly when riding entities
+- Increased the creative tools block reach cap from 12 to 25
+- Renamed and clarified all module descriptions
+- Fixed rounding errors in Direction HUD
+- Fixed some instances where mod menu text would render invisible on 1.17.40 and 1.17.41
+
+Launcher:
+- Removed the taskbar icon
+- Fixed Discord Presence not updating because of the taskbar icon
+- Added logs for troubleshooting purposes, which are located in %localappdata%\Onix Launcher\Logs
+- RPC Error has been moved to the logs, and is no longer displayed as an error message
+- Custom DLL is now Insider Mode and can be toggled on/off by double clicking the Onix logo
+
+Miscellaneous:
+creative tools freecam is gone from 1.18.10/1.18.12 and future versions
 ```
 
 ## 🦠 My antivirus blocks the client.
@@ -285,82 +292,86 @@ Depending on the antivirus that you're using, you should either turn it off so y
 <tbody>
 <tr>
 <td style="text-align:center">Windows Defender</td>
-<td style="text-align:center"><a href="https://bit.ly/3amcRre">Exclude</a></td>
-<td style="text-align:center"><a href="https://bit.ly/3dt5Rec">Disable</a></td>
+<td style="text-align:center"><a href="https://www.technipages.com/windows-10-how-to-exclude-a-file-from-windows-defender/">Exclude</a></td>
+<td style="text-align:center"><a href="https://support.microsoft.com/en-us/windows/turn-microsoft-defender-firewall-on-or-off-ec0844f7-aebd-0583-67fe-601ecf5d774f">Disable</a></td>
 </tr>
 <tr>
 <td style="text-align:center">Norton</td>
-<td style="text-align:center"><a href="https://bit.ly/3t8FqA3">Exclude</a></td>
-<td style="text-align:center"><a href="https://bit.ly/2RptJXE">Disable</a></td>
+<td style="text-align:center"><a href="https://www.lifewire.com/exclude-files-from-norton-antivirus-scans-153348#">Exclude</a></td>
+<td style="text-align:center"><a href="https://www.lifewire.com/disable-norton-antivirus-4589389">Disable</a></td>
 </tr>
 <tr>
 <td style="text-align:center">Malwarebytes</td>
-<td style="text-align:center"><a href="https://bit.ly/3s0zmbf">Exclude</a></td>
-<td style="text-align:center"><a href="https://bit.ly/3dS2D2Y">Disable</a></td>
+<td style="text-align:center"><a href="https://support.malwarebytes.com/hc/en-us/articles/360039024133-Exclude-detections-in-Malwarebytes-for-Windows-v3">Exclude</a></td>
+<td style="text-align:center"><a href="https://support.malwarebytes.com/hc/en-us/articles/360038524894-Enable-or-disable-Real-Time-Protection-in-Malwarebytes-for-Windows-v3">Disable</a></td>
 </tr>
 <tr>
 <td style="text-align:center">McAfee</td>
-<td style="text-align:center"><a href="https://bit.ly/3oNrNqp">Exclude</a></td>
-<td style="text-align:center"><a href="https://bit.ly/3g2nbIG">Disable</a></td>
+<td style="text-align:center"><a href="https://service.mcafee.com/?page=shell&shell=article-view&articleId=TS102056">Exclude</a></td>
+<td style="text-align:center"><a href="https://www.linksys.com/us/support-article?articleNum=135555">Disable</a></td>
 </tr>
 <tr>
 <td style="text-align:center">Avast</td>
-<td style="text-align:center"><a href="https://bit.ly/3wImlqq">Exclude</a></td>
-<td style="text-align:center"><a href="https://bit.ly/3uEzkrj">Disable</a></td>
+<td style="text-align:center"><a href="https://support.avast.com/en-ph/article/Antivirus-scan-exclusions/">Exclude</a></td>
+<td style="text-align:center"><a href="https://bestantiviruspro.org/blog/how-to-temporarily-disable-avast/#:~:text=Go%20to%20the%20Windows%20taskbar,until%20computer%20restart%20OR%20permanently.">Disable</a></td>
 </tr>
 <tr>
 <td style="text-align:center">BitDefender</td>
-<td style="text-align:center"><a href="https://bit.ly/3d53Kgy">Exclude</a></td>
-<td style="text-align:center"><a href="https://bit.ly/2RjRDnf">Disable</a></td>
+<td style="text-align:center"><a href="https://www.bitdefender.com/consumer/support/answer/13427/">Exclude</a></td>
+<td style="text-align:center"><a href="https://clean-my-pc.com/how-to-disable-bitdefender#:~:text=Disable%20Bitdefender%20Issues&amp;amp;text=Open%20the%20Bitdefender%20software%20application,option%20from%20the%20Shield%20tab.">Disable</a></td>
 </tr>
 <tr>
 <td style="text-align:center">Kaspersky Internet Security</td>
-<td style="text-align:center"><a href="https://bit.ly/33viG54">Exclude</a></td>
-<td style="text-align:center"><a href="https://bit.ly/3GVMfv0">Disable</a></td>
+<td style="text-align:center"><a href="https://support.kaspersky.com/KESWin/10SP2/en-US/128138.htm">Exclude</a></td>
+<td style="text-align:center"><a href="https://support.kaspersky.com/KIS/2020/en-US/43539.htm">Disable</a></td>
 </tr>
 <tr>
 <td style="text-align:center">Quick Heal</td>
-<td style="text-align:center"><a href="https://bit.ly/3quUbws">Exclude</a></td>
-<td style="text-align:center"><a href="https://bit.ly/3AbYIYS">Disable</a></td>
+<td style="text-align:center"><a href="https://pastebinp.com/1qXb5ugXTJJvzPwN0grgHQ#X4eOM2tB_9A9D4HqARc8CZpnsDQkBgIsbHC_axVGAgg=">Exclude</a></td>
+<td style="text-align:center"><a href="https://www.quora.com/How-do-I-disable-Quick-Heal-antivirus-in-Windows-8-1">Disable</a></td>
 </tr>
 <tr>
 <td style="text-align:center">AVG</td>
-<td style="text-align:center"><a href="https://bit.ly/3hfyeNG">Exclude</a></td>
-<td style="text-align:center"><a href="https://bit.ly/3dxe1BM">Disable</a></td>
+<td style="text-align:center"><a href="https://support.avg.com/SupportArticleView?l=en&urlname=AVG-Antivirus-scan-exclusions#:~:text=Open%20AVG%20AntiVirus%20and%20go,box,%20then%20click%20Add%20exception.">Exclude</a></td>
+<td style="text-align:center"><a href="https://pastebinp.com/KkUjBKhGXpr1rHXq5EVxQ#kK0YoBfCMex0gJyy33GH9mpp2P5cORVZjEhCzdx6a6U=">Disable</a></td>
 </tr>
 <tr>
 <td style="text-align:center">Webroot</td>
-<td style="text-align:center"><a href="https://bit.ly/3hF8uuf">Exclude</a></td>
-<td style="text-align:center"><a href="https://bit.ly/36jG1Vw">Disable</a></td>
+<td style="text-align:center"><a href="https://pastebinp.com/990CALwgMkEVszAPC1WBg#nHxmjWr0CKHZ-Kzmz11djBCbLmkkuE_iWawPdRuCJV0=">Exclude</a></td>
+<td style="text-align:center"><a href="https://community.webroot.com/tech-talk-7/how-can-i-turn-off-webroot-temporarily-337647">Disable</a></td>
 </tr>
 <tr>
 <td style="text-align:center">Panda/Panda Dome</td>
-<td style="text-align:center"><a href="https://bit.ly/3jPIIpN">Exclude</a></td>
-<td style="text-align:center"><a href="https://bit.ly/3dSmRug">Disable</a></td>
+<td style="text-align:center"><a href="https://www.pandasecurity.com/en/support/card?id=55521">Exclude</a></td>
+<td style="text-align:center"><a href="https://www.techwalla.com/articles/how-to-disable-the-panda-antivirus#">Disable</a></td>
 </tr>
 <tr>
 <td style="text-align:center">Spectrum F-Secure</td>
-<td style="text-align:center"><a href="https://bit.ly/3ei1Zg4">Exclude</a></td>
-<td style="text-align:center"><a href="https://bit.ly/3hGm81B">Disable</a></td>
+<td style="text-align:center"><a href="https://pastebinp.com/RuwyAM9BvnlJJO5GmXAw#RXthundQfjFjfWCDz-XjlpU4_zt-cXCXx3i0f0r6dcU=">Exclude</a></td>
+<td style="text-align:center"><a href="https://pastebinp.com/GfkArfGf8xP2bSTbgfIzJg#vxqH7m8Yweb2waI-MvjoAM4apryli6Cj_5fsf75pg5U=">Disable</a></td>
 </tr>
 <tr>
 <td style="text-align:center">PCMatic</td>
-<td style="text-align:center"><a href="https://bit.ly/3lmM701">Exclude</a></td>
-<td style="text-align:center"><a href="https://bit.ly/3ikdGFs">Disable</a></td>
+<td style="text-align:center"><a href="https://forums.pcmatic.com/topic/203530-manually-adding-a-programservice-to-whitelist/">Exclude</a></td>
+<td style="text-align:center"><a href="https://forums.pcmatic.com/topic/205678-is-there-any-way-to-turn-pcmatic-off/">Disable</a></td>
 </tr>
 <tr>
 <td style="text-align:center">k7</td>
-<td style="text-align:center"><a href="https://shorturl.at/twFU5">Exclude</a></td>
-<td style="text-align:center"><a href="https://shorturl.at/yHIM0">Disable</a></td>
+<td style="text-align:center"><a href="https://support.k7computing.com/index.php?/selfhelp/view-article/How-can-I-manage-exclusion">Exclude</a></td>
+<td style="text-align:center"><a href="https://support.sathyainfo.com/kb/a239/how-do-i-disable-my-antivirus-program-in-windows.aspx">Disable</a></td>
 </tr>
 </tbody>
 </table>
 
-### Info for Avira users
-Avira will not let you use Onix Client, even if it's disabled. We recommend you uninstall Avira until we get this issue sorted out with them.
 
-If you have an antivirus that's not included here or if a link stops working, DM me [@ItzHugo#2308](https://discord.com/users/731013984710426694) so I can fix it.
+~~Avira users:~~
+~~Avira will not let you use Onix Client, even if it's disabled. We recommend you uninstall Avira until we get this issue sorted out with them.~~
 
+^^ This issue is now fixed.
+
+
+If you have an antivirus that's not included here or if a link stops working, ~~DM me [@ItzHugo#2308](https://discord.com/users/731013984710426694) so I can fix it.~~
+DM [Isaiahluke40#3089](https://discord.com/users/397244496586211339) for now until Hugo comes back.
 ## 🤝 Contributing
 
 You can contribute to this FAQ by making a fork of this project, editing it, and submitting a pull request. All **valid** help is accepted and is encouraged. Thank you for reading and helping to make this better!
