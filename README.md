@@ -18,7 +18,7 @@ To download Onix Client, go to the [#download](https://discord.com/channels/8141
 Yes, we can assure you that Onix Client is 100% safe for use. Your antivirus might flag it because it injects a DLL into the game. However, due note these things:
 - Our injector can only inject into Minecraft, other viruses attack other applications, if not all.
 - If you use any third-party program along with our DLL, we are **NOT** ensuring functionality or the fact that this is safe. However, any Onix Client file used is 100% safe.
--  Minecraft is a UWP app, which means it is sandboxed. Meaning even if the DLL was malicious, it wouldn't be able to do very much when injected into minecraft. More info about UWP sandboxing [Here](https://labs.sogeti.com/windows-store-apps-live-sandbox).
+-  Minecraft is a UWP app, which means it is sandboxed. Meaning even if the DLL was malicious, it wouldn't be able to do very much when injected into the minecraft process. More info about UWP sandboxing [Here](https://labs.sogeti.com/windows-store-apps-live-sandbox).
 - If you ever feel like anything is not safe, **DON'T** use it.
 
 ## 📱 What devices does Onix Client support?
