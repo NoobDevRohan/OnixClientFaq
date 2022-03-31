@@ -201,7 +201,7 @@ Open the module settings and enable "Minecraftia Font" on the right.
 
 ## 🧪 Why don't the PotionHUD icons show up?
 
-One of your texture packs probably broke them. But don't worry, we have a PotionHUD Fixer [here](https://cdn.discordapp.com/attachments/852320290750726145/874753455418388550/PotionFix.mcpack)! Due note: this pack may break custom hotbars/XP bars.
+One of your texture packs probably broke them. But don't worry, we have a PotionHUD Fixer [here](https://github.com/HugoNotHere/OnixClientFaq/blob/main/files/PotionFix.mcpack?raw=true)! Due note: this pack may break custom hotbars/XP bars.
 
 ## 🛏️ When I have render options on, I can't see beds and chests and other blocks.
 
