@@ -333,9 +333,14 @@ Depending on the antivirus that you're using, you should either turn it off so y
 <td style="text-align:center"><a href="https://support.k7computing.com/index.php?/selfhelp/view-article/How-can-I-manage-exclusion">Exclude</a></td>
 <td style="text-align:center"><a href="https://support.sathyainfo.com/kb/a239/how-do-i-disable-my-antivirus-program-in-windows.aspx">Disable</a></td>
 </tr>
+<tr>
+<td style="text-align:center">RAV Antivirus</td>
+<td style="text-align:center"><a href="https://www.reddit.com/r/RAVAntivirus/comments/tq31n5/how_to_exclude_files_or_folders_from_rav/">Exclude</a></td>
+<td style="text-align:center"><a href="https://howtoremove.guide/rav-antivirus-uninstall/">Uninstall</a></td>
+</tr>
 </tbody>
 </table>
-
+<td style="text-align:center"><a href="https://support.k7computing.com/index.php?/selfhelp/view-article/How-can-I-manage-exclusion">Exclude</a></td>
 
 ~~Avira users:~~
 ~~Avira will not let you use Onix Client, even if it's disabled. We recommend you uninstall Avira until we get this issue sorted out with them.~~
