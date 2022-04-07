@@ -353,6 +353,41 @@ If you have an antivirus that's not included here or if a link stops working, ~~
 DM [Isaiahluke40#3089](https://discord.com/users/397244496586211339) for now until Hugo comes back. (Only if related to antivirus problems). If I'm not online, I suggest going to [#make-a-ticket](https://discord.com/channels/814195071356370977/945717582269399050) and create a ticket.
 
 Please go to [#make-a-ticket](https://discord.com/channels/814195071356370977/945717582269399050) and create a ticket there if you are currently encountering issues relating to the injector and/or client. (Please wait patiently after making a ticket)
+
+# The Onix Client License
+
+Definitions: Us/We (the Onix Client developers), You (you reading this/using Onix Client)
+We own the Onix Client name, the logo, and its programs/binaries.
+You are subject to the following terms:
+## - You can:
+
+• Talk about the client
+
+• Show the logo in your YouTube thumbnail(s)
+
+• Use the logo to showcase the client in rewiews, showcases, etc
+
+## - You cannot:
+
+• Use the logo and name for your own product(s) **without permission from us**
+
+• Claim the logo and name as yours
+
+• Promote your product with the logo and name
+
+• Reupload or redistribute the client/launcher in different websites
+(Mediafire, Dropbox, your own Discord server, etc.)
+
+• Distribute a modified version of the client/launcher
+
+• Use, distribute, and/or own older versions of any of our products
+
+Failure to comply with these terms will result in your content being taken down.
+
+Extra notes: We don't want to be a boring company. We just want to protect our logo and name.
+Any questions should be asked in [#make-a-ticket](https://discord.com/channels/814195071356370977/945717582269399050).
+
+
 ## 🤝 Contributing
 
 You can contribute to this FAQ by making a fork of this project, editing it, and submitting a pull request. All **valid** help is accepted and is encouraged. Thank you for reading and helping to make this better!
