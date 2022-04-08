@@ -384,6 +384,11 @@ You are subject to the following terms:
 
 Failure to comply with these terms will result in your content being taken down.
 
+## If you do not agree with those terms:              
+ Delete all binaries logos, files do not use any of the products              
+ To remove it from the game close it              
+ if you use it anyway you agree to follow these terms
+
 Extra notes: We don't want to be a boring company. We just want to protect our logo and name.
 Any questions should be asked in [#make-a-ticket](https://discord.com/channels/814195071356370977/945717582269399050).
 
