@@ -65,7 +65,7 @@ Your game is most likely on an unsupported version. If you are below 1.16.40, yo
 1.18.2     1.17.34    1.16.210
 1.18.1     1.17.32    1.16.201
 1.18.0     1.17.30    1.16.200
-           1.17.11    1.16.100 (partial)
+1.18.30    1.17.11    1.16.100 (partial)
            1.17.10    1.16.40
            1.17.2
            1.17.0
@@ -116,7 +116,7 @@ Right-click the module first (you can do this with any module to enable it). Thi
 
 ## ❌ How do I remove the client?
 
-Hold CTRL + L.
+Restart your game. You can no longer uninject while in game.
 
 ## 💺 What's the latest version of the client?
 
