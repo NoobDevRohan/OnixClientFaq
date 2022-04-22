@@ -120,7 +120,7 @@ Hold CTRL + L.
 
 ## 💺 What's the latest version of the client?
 
-The current latest version is 2.70.
+The current latest version is 2.72
 
 ## ⚙️ What features do we have in the client?
 
@@ -231,8 +231,14 @@ Download [this pack](http://www.mediafire.com/file/kqyjo9s9ld39nkn/No+Red+Arrow+
 
 ```
 Client:
-- Updated to 1.18.10 and 1.18.12
-- Fixed crashes related to AutoGG
+```
+Hitboxes are now smooth as youd expect
+Resizing is less likely to mess up your layout
+.txt -> ocfg convertion enabled again
+Freecam is now back in Creative Tools for 1.18.10+
+Audio subtitles is not availible on 1.18.30+
+Added 1.18.30 support
+```
 
 QOL fixes/tweaks:
 - Re-enabled FPS showing in the Java Debug Menu
