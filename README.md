@@ -60,12 +60,12 @@ Your game is most likely on an unsupported version. If you are below 1.16.40, yo
 ### List of supported versions:
 ```
 (1.18)     (1.17)     (1.16)
-1.18.12    1.17.41    1.16.221
-1.18.10    1.17.40    1.16.220
-1.18.2     1.17.34    1.16.210
-1.18.1     1.17.32    1.16.201
-1.18.0     1.17.30    1.16.200
-1.18.30    1.17.11    1.16.100 (partial)
+1.18.30    1.17.41    1.16.221
+1.18.12    1.17.40    1.16.220
+1.18.10    1.17.34    1.16.210
+1.18.2     1.17.32    1.16.201
+1.18.1     1.17.30    1.16.200
+1.18.0     1.17.11    1.16.100 (partial)
            1.17.10    1.16.40
            1.17.2
            1.17.0
@@ -179,7 +179,7 @@ Youtube Requirements:
 Twitch Requirements
 - 500 followers
 
-If you meet any of the requirements, open a ticket.
+If you meet any of the requirements, open a [ticket](https://discord.com/channels/814195071356370977/945717582269399050).
 
 ## 🔨 Do I get beta access if I boost?
 
@@ -227,18 +227,16 @@ Download [this pack](http://www.mediafire.com/file/kqyjo9s9ld39nkn/No+Red+Arrow+
 
 ## 📋 Where can I find the latest changelog?
 
-### Changelog for OnixClient 2.70
+### Changelog for OnixClient 2.72
 
 ```
 Client:
-```
-Hitboxes are now smooth as youd expect
-Resizing is less likely to mess up your layout
-.txt -> ocfg convertion enabled again
-Freecam is now back in Creative Tools for 1.18.10+
-Audio subtitles is not availible on 1.18.30+
-Added 1.18.30 support
-```
+- Hitboxes are now smooth as you'd expect
+- Resizing is less likely to mess up your layout
+- .txt -> ocfg convertion enabled again
+- Freecam is now back in Creative Tools for 1.18.10+
+- Audio subtitles is not availible on 1.18.30+
+- Added 1.18.30 support
 
 QOL fixes/tweaks:
 - Re-enabled FPS showing in the Java Debug Menu
@@ -257,7 +255,7 @@ Launcher:
 - Custom DLL is now Insider Mode and can be toggled on/off by double clicking the Onix logo
 
 Miscellaneous:
-creative tools freecam is gone from 1.18.10/1.18.12 and future versions
+- Creative tools freecam is gone from 1.18.10/1.18.12 and future versions
 ```
 
 ## 🦠 My antivirus blocks the client.
@@ -358,11 +356,9 @@ Depending on the antivirus that you're using, you should either turn it off so y
 ^^ This issue is now fixed.
 
 
-If you have an antivirus that's not included here or if a link stops working, you can DM [@ItzHugo#2308](https://discord.com/users/731013984710426694) or [Isaiahluke40#3089](https://discord.com/users/397244496586211339) so we can fix it.
+If you have an antivirus that's not included here or if a link stops working, you can DM [@ItzHugo#2308](https://discord.com/users/731013984710426694) or [@Isaiahluke40#3089](https://discord.com/users/397244496586211339) so we can fix it.
 
-If both of us are not online, we suggest going to [#make-a-ticket](https://discord.com/channels/814195071356370977/945717582269399050) and create a ticket.
-
-Please go to [#make-a-ticket](https://discord.com/channels/814195071356370977/945717582269399050) and create a ticket there if you are currently encountering issues relating to the injector and/or client. (Please wait patiently after making a ticket)
+If both of us are not online, we suggest going to [#make-a-ticket](https://discord.com/channels/814195071356370977/945717582269399050) and create a ticket. (Please wait patiently after making a ticket)
 
 # The Onix Client License
 
