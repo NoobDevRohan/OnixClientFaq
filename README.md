@@ -348,7 +348,6 @@ Depending on the antivirus that you're using, you should either turn it off so y
 </tr>
 </tbody>
 </table>
-<td style="text-align:center"><a href="https://support.k7computing.com/index.php?/selfhelp/view-article/How-can-I-manage-exclusion">Exclude</a></td>
 
 ~~Avira users:~~
 ~~Avira will not let you use Onix Client, even if it's disabled. We recommend you uninstall Avira until we get this issue sorted out with them.~~
