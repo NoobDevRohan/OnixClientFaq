@@ -60,13 +60,13 @@ Your game is most likely on an unsupported version. If you are below 1.16.40, yo
 ### List of supported versions:
 ```
 (1.18)     (1.17)     (1.16)
-1.18.30    1.17.41    1.16.221
-1.18.12    1.17.40    1.16.220
-1.18.10    1.17.34    1.16.210
-1.18.2     1.17.32    1.16.201
-1.18.1     1.17.30    1.16.200
-1.18.0     1.17.11    1.16.100 (partial)
-           1.17.10    1.16.40
+1.18.31    1.17.41    1.16.221
+1.18.30    1.17.40    1.16.220
+1.18.12    1.17.34    1.16.210
+1.18.12    1.17.32    1.16.201
+1.18.2     1.17.30    1.16.200
+1.18.1     1.17.11    1.16.100 (partial)
+1.18.0     1.17.10    1.16.40
            1.17.2
            1.17.0
 ```
@@ -120,7 +120,7 @@ Restart your game. You can no longer uninject while in game.
 
 ## 💺 What's the latest version of the client?
 
-The current latest version is 2.72
+The current latest version is 2.75
 
 ## ⚙️ What features do we have in the client?
 
@@ -231,39 +231,27 @@ Download [this pack](http://www.mediafire.com/file/kqyjo9s9ld39nkn/No+Red+Arrow+
 
 ```
 Client:
--Fixed hurt color for 1.18.10/1.18.12
--Fixed audio subtitles not enabling on any version below 1.17.30
--Fixed Hitboxes lagging when climbing up non-full blocks
--Fixed .rename and .signfix for 1.18.30
--Fixed rename not applying if the item had no data
-
--Added option in Zoom to hide the hand
-(Added as a response to how the game handles it in 1.18.30)
-
--Added hitbox color changer
--Added hitbox eye line option (line where the eyes are(optional, off by default))
-(As now its good now why not give it some options)
-
-Known bugs:
--Item Physics will mess up item frames
--New darkness effect comes up as Unknown
-Will be fixing them next release, I cant change it for now.
-QOL fixes/tweaks:
-
-- Re-enabled FPS showing in the Java Debug Menu
-- Fixed block position in Java Debug Menu occasionally reading inaccurately
-- Speed display now works properly when riding entities
-- Increased the creative tools block reach cap from 12 to 25
-- Renamed and clarified all module descriptions
-- Fixed rounding errors in Direction HUD
-- Fixed some instances where mod menu text would render invisible on 1.17.40 and 1.17.41
+-Fixed "Custom Crosshair" using image crosshairs
+-Added an option to "Custom Crosshair" to use "Texture Pack" crosshair
+-Fixed freecam for 1.18.12
+-Fixed "Render Options" not being compatible with "Zoom" hide hand option
+-Fixed "Item Physics" for 1.18.30/1.18.31 with item frames
+-Fixed Darkness effect showing as "Unknown"
+-Added the option to have round corners on most mods
+-Added support for 1.18.31
 
 Launcher:
-- Removed the taskbar icon
-- Fixed Discord Presence not updating because of the taskbar icon
-- Added logs for troubleshooting purposes, which are located in %localappdata%\Onix Launcher\Logs
-- RPC Error has been moved to the logs, and is no longer displayed as an error message
-- Custom DLL is now Insider Mode and can be toggled on/off by double clicking the Onix logo
+-Settings is added
+-Insider Mode is now a setting and acts more like a "Custom DLL" feature
+-Magic Gradient - adds color transitions to the gradient buttons (look closely, it's very subtle)
+-Added a button to open the logs folder
+-Network detection (pings GitHub to check if either you and/or GitHub's servers are online)
+(If you're offline and the DLL already exists locally, the launcher will use that to launch)
+(If the DLL doesn't exist, the launcher closes)
+-New error message if injection fails while the game is open
+-Fixed dragging on all windows
+-Fixed version list getting downloaded even when insider mode is enabled
+-Minor cosmetic changes, again
 
 Miscellaneous:
 - Creative tools freecam is gone from 1.18.10/1.18.12 and future versions
