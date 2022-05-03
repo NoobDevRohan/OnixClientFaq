@@ -28,7 +28,7 @@
 
 # [![Onix Client Logo](https://raw.githubusercontent.com/HugoNotHere/OnixClientFaq/main/onixlogosmall.png)](https://discord.gg/OnixClient) Onix Client FAQ
 
-Onix Client is a legit modification for Minecraft Bedrock Edition. Sometimes, you may need help setting it up, and this is what the FAQ is for. This has all of the common questions about Onix Client, installation, and usage. If you have any suggestions for this page, please fork this repository, edit it, and then create a pull request. Finally, if you have any other questions please join the Discord server and create a ticket there.
+Onix Client is a legit modification for Minecraft Bedrock Edition. Sometimes, you may need help setting it up, and this is what the FAQ is for. This has all of the common questions about Onix Client, installation, and usage. If you have any suggestions for this page, please fork this repository, edit it, and then create a pull request. Finally, if you have any other questions please join the Discord server and create a ticket there. **Note: Before using the client make sure you agree with the Onix Client License which is found at the bottom of this page or [here](https://ocwebsite.github.io/license.html).** 
 
 ## 📪 Where can I download Onix Client?
 
@@ -46,6 +46,7 @@ To download Onix Client, go to the [#download](https://discord.com/channels/8141
 Yes, we can assure you that Onix Client is 100% safe for use. Your antivirus might flag it because it injects a DLL into the game. However, due note these things:
 - Our injector can only inject into Minecraft, other viruses attack other applications, if not all.
 - If you use any third-party program along with our DLL, we are **NOT** ensuring functionality or the fact that this is safe. However, any Onix Client file used is 100% safe.
+-  Minecraft is a UWP app, which means it is sandboxed. Meaning even if the DLL was malicious, it wouldn't be able to do very much when injected into the minecraft process. More info about UWP sandboxing [Here](https://labs.sogeti.com/windows-store-apps-live-sandbox).
 - If you ever feel like anything is not safe, **DON'T** use it.
 
 ## 📱 What devices does Onix Client support?
@@ -87,16 +88,21 @@ Your game is most likely on an unsupported version. If you are below 1.16.40, yo
 ### List of supported versions:
 ```
 (1.18)     (1.17)     (1.16)
-1.18.12    1.17.41    1.16.221
-1.18.10    1.17.40    1.16.220
-1.18.2     1.17.34    1.16.210
-1.18.1     1.17.32    1.16.201
-1.18.0     1.17.30    1.16.200
-           1.17.11    1.16.100 (partial)
-           1.17.10    1.16.40
+1.18.31    1.17.41    1.16.221
+1.18.30    1.17.40    1.16.220
+1.18.12    1.17.34    1.16.210
+1.18.12    1.17.32    1.16.201
+1.18.2     1.17.30    1.16.200
+1.18.1     1.17.11    1.16.100 (partial)
+1.18.0     1.17.10    1.16.40
            1.17.2
            1.17.0
 ```
+
+## ❗️ When trying to change version with McLauncher, it gives me an error saying "The Temporary directory for backing up MC data already exists." How do I fix this?
+![](https://media.discordapp.net/attachments/832745413916360806/969980565468086342/Screenshot_30_04_2022_16_16_11.png?width=800&height=400)
+
+Press Windows key + R and paste %localappdata%\ and find a folder called TmpMinecraftLocalState, then right click on the folder and click on "Cut". Next go to your desktop and click paste. Now open mcLauncher again and launch a version. Don't worry if your settings and packs are gone because you have them backed up on the folder you moved to your desktop. Next replace all the files in the folder you on your desktop with the files in %localappdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\localstate\ and you're done!
 
 ## 🧥 Why does it say "as nobody (HOW)" on Discord instead of my Gamertag?
 
@@ -143,11 +149,11 @@ Right-click the module first (you can do this with any module to enable it). Thi
 
 ## ❌ How do I remove the client?
 
-Hold CTRL + L.
+Restart your game. You can no longer uninject while in game.
 
 ## 💺 What's the latest version of the client?
 
-The current latest version is 2.70.
+The current latest version is 2.75
 
 ## ⚙️ What features do we have in the client?
 
@@ -197,12 +203,16 @@ Client Side Nick (.nick)
 
 Say ```.help``` in chat for a complete list of Onix commands.
 
-## 🎥 How do I apply for YouTube Role/Rank in the Discord? (@Youtuber)?
+## 🎥 How do I apply for Media Role/Rank in the Discord? (@Youtuber)?
 
-Requirements:
+Youtube Requirements:
 - 750+ Subs
 - A video about Onix Client 
-If you meet the requirements, open a ticket.
+
+Twitch Requirements
+- 500 followers
+
+If you meet any of the requirements, open a [ticket](https://discord.com/channels/814195071356370977/945717582269399050).
 
 ## 🔨 Do I get beta access if I boost?
 
@@ -228,7 +238,7 @@ Open the module settings and enable "Minecraftia Font" on the right.
 
 ## 🧪 Why don't the PotionHUD icons show up?
 
-One of your texture packs probably broke them. But don't worry, we have a PotionHUD Fixer [here](https://cdn.discordapp.com/attachments/852320290750726145/874753455418388550/PotionFix.mcpack)! Due note: this pack may break custom hotbars/XP bars.
+One of your texture packs probably broke them. But don't worry, we have a PotionHUD Fixer [here](https://github.com/HugoNotHere/OnixClientFaq/blob/main/files/PotionFix.mcpack?raw=true)! Due note: this pack may break custom hotbars/XP bars.
 
 ## 🛏️ When I have render options on, I can't see beds and chests and other blocks.
 
@@ -250,31 +260,34 @@ Download [this pack](http://www.mediafire.com/file/kqyjo9s9ld39nkn/No+Red+Arrow+
 
 ## 📋 Where can I find the latest changelog?
 
-### Changelog for OnixClient 2.70
+### Changelog for OnixClient 2.72
 
 ```
 Client:
-- Updated to 1.18.10 and 1.18.12
-- Fixed crashes related to AutoGG
-
-QOL fixes/tweaks:
-- Re-enabled FPS showing in the Java Debug Menu
-- Fixed block position in Java Debug Menu occasionally reading inaccurately
-- Speed display now works properly when riding entities
-- Increased the creative tools block reach cap from 12 to 25
-- Renamed and clarified all module descriptions
-- Fixed rounding errors in Direction HUD
-- Fixed some instances where mod menu text would render invisible on 1.17.40 and 1.17.41
+-Fixed "Custom Crosshair" using image crosshairs
+-Added an option to "Custom Crosshair" to use "Texture Pack" crosshair
+-Fixed freecam for 1.18.12
+-Fixed "Render Options" not being compatible with "Zoom" hide hand option
+-Fixed "Item Physics" for 1.18.30/1.18.31 with item frames
+-Fixed Darkness effect showing as "Unknown"
+-Added the option to have round corners on most mods
+-Added support for 1.18.31
 
 Launcher:
-- Removed the taskbar icon
-- Fixed Discord Presence not updating because of the taskbar icon
-- Added logs for troubleshooting purposes, which are located in %localappdata%\Onix Launcher\Logs
-- RPC Error has been moved to the logs, and is no longer displayed as an error message
-- Custom DLL is now Insider Mode and can be toggled on/off by double clicking the Onix logo
+-Settings is added
+-Insider Mode is now a setting and acts more like a "Custom DLL" feature
+-Magic Gradient - adds color transitions to the gradient buttons (look closely, it's very subtle)
+-Added a button to open the logs folder
+-Network detection (pings GitHub to check if either you and/or GitHub's servers are online)
+(If you're offline and the DLL already exists locally, the launcher will use that to launch)
+(If the DLL doesn't exist, the launcher closes)
+-New error message if injection fails while the game is open
+-Fixed dragging on all windows
+-Fixed version list getting downloaded even when insider mode is enabled
+-Minor cosmetic changes, again
 
 Miscellaneous:
-creative tools freecam is gone from 1.18.10/1.18.12 and future versions
+- Creative tools freecam is gone from 1.18.10/1.18.12 and future versions
 ```
 
 ## 🦠 My antivirus blocks the client.
@@ -293,7 +306,7 @@ Depending on the antivirus that you're using, you should either turn it off so y
 <tr>
 <td style="text-align:center">Windows Defender</td>
 <td style="text-align:center"><a href="https://www.technipages.com/windows-10-how-to-exclude-a-file-from-windows-defender/">Exclude</a></td>
-<td style="text-align:center"><a href="https://support.microsoft.com/en-us/windows/turn-microsoft-defender-firewall-on-or-off-ec0844f7-aebd-0583-67fe-601ecf5d774f">Disable</a></td>
+<td style="text-align:center"><a href="https://support.microsoft.com/en-us/windows/turn-off-defender-antivirus-protection-in-windows-security-99e6004f-c54c-8509-773c-a4d776b77960">Disable</a></td>
 </tr>
 <tr>
 <td style="text-align:center">Norton</td>
@@ -360,9 +373,13 @@ Depending on the antivirus that you're using, you should either turn it off so y
 <td style="text-align:center"><a href="https://support.k7computing.com/index.php?/selfhelp/view-article/How-can-I-manage-exclusion">Exclude</a></td>
 <td style="text-align:center"><a href="https://support.sathyainfo.com/kb/a239/how-do-i-disable-my-antivirus-program-in-windows.aspx">Disable</a></td>
 </tr>
+<tr>
+<td style="text-align:center">RAV Antivirus</td>
+<td style="text-align:center"><a href="https://www.reddit.com/r/RAVAntivirus/comments/tq31n5/how_to_exclude_files_or_folders_from_rav/">Exclude</a></td>
+<td style="text-align:center"><a href="https://howtoremove.guide/rav-antivirus-uninstall/">Uninstall</a></td>
+</tr>
 </tbody>
 </table>
-
 
 ~~Avira users:~~
 ~~Avira will not let you use Onix Client, even if it's disabled. We recommend you uninstall Avira until we get this issue sorted out with them.~~
@@ -370,8 +387,49 @@ Depending on the antivirus that you're using, you should either turn it off so y
 ^^ This issue is now fixed.
 
 
-If you have an antivirus that's not included here or if a link stops working, ~~DM me [@ItzHugo#2308](https://discord.com/users/731013984710426694) so I can fix it.~~
-DM [Isaiahluke40#3089](https://discord.com/users/397244496586211339) for now until Hugo comes back.
+If you have an antivirus that's not included here or if a link stops working, you can DM [@ItzHugo#2308](https://discord.com/users/731013984710426694) or [@Isaiahluke40#3089](https://discord.com/users/397244496586211339) so we can fix it.
+
+If both of us are not online, we suggest going to [#make-a-ticket](https://discord.com/channels/814195071356370977/945717582269399050) and create a ticket. (Please wait patiently after making a ticket)
+
+# The Onix Client License
+
+Definitions: Us/We (the Onix Client developers), You (you reading this/using Onix Client)
+We own the Onix Client name, the logo, and its programs/binaries.
+You are subject to the following terms:
+## - You can:
+
+• Talk about the client
+
+• Show the logo in your YouTube thumbnail(s)
+
+• Use the logo to showcase the client in rewiews, showcases, etc
+
+## - You cannot:
+
+• Use the logo and name for your own product(s) **without permission from us**
+
+• Claim the logo and name as yours
+
+• Promote your product with the logo and name
+
+• Reupload or redistribute the client/launcher in different websites
+(Mediafire, Dropbox, your own Discord server, etc.)
+
+• Distribute a modified version of the client/launcher
+
+• Use, distribute, and/or own older versions of any of our products
+
+Failure to comply with these terms will result in your content being taken down.
+
+## If you do not agree with those terms:              
+ Delete all binaries logos, files do not use any of the products              
+ To remove it from the game close it              
+ if you use it anyway you agree to follow these terms
+
+Extra notes: We don't want to be a boring company. We just want to protect our logo and name.
+Any questions should be asked in [#make-a-ticket](https://discord.com/channels/814195071356370977/945717582269399050).
+
+
 ## 🤝 Contributing
 
 You can contribute to this FAQ by making a fork of this project, editing it, and submitting a pull request. All **valid** help is accepted and is encouraged. Thank you for reading and helping to make this better!
