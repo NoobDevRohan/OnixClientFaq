@@ -38,6 +38,107 @@ Right click the Start button and click "System", which takes you to this screen:
 
 ### We have no plans to support any devices other than Windows PCs. Don't ask for it.
 
+## 🦠 My antivirus blocks the client.
+
+Depending on the antivirus that you're using, you should either turn it off so you can download the client or you can exclude the client from being flagged. Onix Client is not a virus of any sort. The launcher is open source; the source code can be viewed [here](https://github.com/notcarlton/OnixLauncher) if you want to compile it yourself or check if the code is safe.
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><strong>Antivirus</strong></th>
+<th style="text-align:center"><strong>Exclude Links</strong></th>
+<th style="text-align:center"><strong>Disable Links</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Windows Defender</td>
+<td style="text-align:center"><a href="https://www.technipages.com/windows-10-how-to-exclude-a-file-from-windows-defender/">Exclude</a></td>
+<td style="text-align:center"><a href="https://support.microsoft.com/en-us/windows/turn-off-defender-antivirus-protection-in-windows-security-99e6004f-c54c-8509-773c-a4d776b77960">Disable</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Norton</td>
+<td style="text-align:center"><a href="https://www.lifewire.com/exclude-files-from-norton-antivirus-scans-153348#">Exclude</a></td>
+<td style="text-align:center"><a href="https://www.lifewire.com/disable-norton-antivirus-4589389">Disable</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Malwarebytes</td>
+<td style="text-align:center"><a href="https://support.malwarebytes.com/hc/en-us/articles/360039024133-Exclude-detections-in-Malwarebytes-for-Windows-v3">Exclude</a></td>
+<td style="text-align:center"><a href="https://support.malwarebytes.com/hc/en-us/articles/360038524894-Enable-or-disable-Real-Time-Protection-in-Malwarebytes-for-Windows-v3">Disable</a></td>
+</tr>
+<tr>
+<td style="text-align:center">McAfee</td>
+<td style="text-align:center"><a href="https://service.mcafee.com/?page=shell&shell=article-view&articleId=TS102056">Exclude</a></td>
+<td style="text-align:center"><a href="https://www.linksys.com/us/support-article?articleNum=135555">Disable</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Avast</td>
+<td style="text-align:center"><a href="https://support.avast.com/en-ph/article/Antivirus-scan-exclusions/">Exclude</a></td>
+<td style="text-align:center"><a href="https://bestantiviruspro.org/blog/how-to-temporarily-disable-avast/#:~:text=Go%20to%20the%20Windows%20taskbar,until%20computer%20restart%20OR%20permanently.">Disable</a></td>
+</tr>
+<tr>
+<td style="text-align:center">BitDefender</td>
+<td style="text-align:center"><a href="https://www.bitdefender.com/consumer/support/answer/13427/">Exclude</a></td>
+<td style="text-align:center"><a href="https://clean-my-pc.com/how-to-disable-bitdefender#:~:text=Disable%20Bitdefender%20Issues&amp;amp;text=Open%20the%20Bitdefender%20software%20application,option%20from%20the%20Shield%20tab.">Disable</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Kaspersky Internet Security</td>
+<td style="text-align:center"><a href="https://support.kaspersky.com/KESWin/10SP2/en-US/128138.htm">Exclude</a></td>
+<td style="text-align:center"><a href="https://support.kaspersky.com/KIS/2020/en-US/43539.htm">Disable</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Quick Heal</td>
+<td style="text-align:center"><a href="https://pastebinp.com/1qXb5ugXTJJvzPwN0grgHQ#X4eOM2tB_9A9D4HqARc8CZpnsDQkBgIsbHC_axVGAgg=">Exclude</a></td>
+<td style="text-align:center"><a href="https://www.quora.com/How-do-I-disable-Quick-Heal-antivirus-in-Windows-8-1">Disable</a></td>
+</tr>
+<tr>
+<td style="text-align:center">AVG</td>
+<td style="text-align:center"><a href="https://support.avg.com/SupportArticleView?l=en&urlname=AVG-Antivirus-scan-exclusions#:~:text=Open%20AVG%20AntiVirus%20and%20go,box,%20then%20click%20Add%20exception.">Exclude</a></td>
+<td style="text-align:center"><a href="https://pastebinp.com/KkUjBKhGXpr1rHXq5EVxQ#kK0YoBfCMex0gJyy33GH9mpp2P5cORVZjEhCzdx6a6U=">Disable</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Webroot</td>
+<td style="text-align:center"><a href="https://pastebinp.com/990CALwgMkEVszAPC1WBg#nHxmjWr0CKHZ-Kzmz11djBCbLmkkuE_iWawPdRuCJV0=">Exclude</a></td>
+<td style="text-align:center"><a href="https://community.webroot.com/tech-talk-7/how-can-i-turn-off-webroot-temporarily-337647">Disable</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Panda/Panda Dome</td>
+<td style="text-align:center"><a href="https://www.pandasecurity.com/en/support/card?id=55521">Exclude</a></td>
+<td style="text-align:center"><a href="https://www.techwalla.com/articles/how-to-disable-the-panda-antivirus#">Disable</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Spectrum F-Secure</td>
+<td style="text-align:center"><a href="https://pastebinp.com/RuwyAM9BvnlJJO5GmXAw#RXthundQfjFjfWCDz-XjlpU4_zt-cXCXx3i0f0r6dcU=">Exclude</a></td>
+<td style="text-align:center"><a href="https://pastebinp.com/GfkArfGf8xP2bSTbgfIzJg#vxqH7m8Yweb2waI-MvjoAM4apryli6Cj_5fsf75pg5U=">Disable</a></td>
+</tr>
+<tr>
+<td style="text-align:center">PCMatic</td>
+<td style="text-align:center"><a href="https://forums.pcmatic.com/topic/203530-manually-adding-a-programservice-to-whitelist/">Exclude</a></td>
+<td style="text-align:center"><a href="https://forums.pcmatic.com/topic/205678-is-there-any-way-to-turn-pcmatic-off/">Disable</a></td>
+</tr>
+<tr>
+<td style="text-align:center">k7</td>
+<td style="text-align:center"><a href="https://support.k7computing.com/index.php?/selfhelp/view-article/How-can-I-manage-exclusion">Exclude</a></td>
+<td style="text-align:center"><a href="https://support.sathyainfo.com/kb/a239/how-do-i-disable-my-antivirus-program-in-windows.aspx">Disable</a></td>
+</tr>
+<tr>
+<td style="text-align:center">RAV Antivirus</td>
+<td style="text-align:center"><a href="https://www.reddit.com/r/RAVAntivirus/comments/tq31n5/how_to_exclude_files_or_folders_from_rav/">Exclude</a></td>
+<td style="text-align:center"><a href="https://howtoremove.guide/rav-antivirus-uninstall/">Uninstall</a></td>
+</tr>
+</tbody>
+</table>
+
+~~Avira users:~~
+~~Avira will not let you use Onix Client, even if it's disabled. We recommend you uninstall Avira until we get this issue sorted out with them.~~
+
+^^ This issue is now fixed.
+
+
+If you have an antivirus that's not included here or if a link stops working, you can DM [@ItzHugo#2308](https://discord.com/users/731013984710426694) or [@Isaiahluke40#3089](https://discord.com/users/397244496586211339) so we can fix it.
+
+If both of us are not online, we suggest going to [#make-a-ticket](https://discord.com/channels/814195071356370977/945717582269399050) and create a ticket. (Please wait patiently after making a ticket).
+
 ## 🔄 The launcher didn't auto update. How do I fix this?
 Press the Windows Key + R and paste the following:
 
@@ -273,107 +374,6 @@ Launcher:
 Miscellaneous:
 - Creative tools freecam is gone from 1.18.10/1.18.12 and future versions
 ```
-
-## 🦠 My antivirus blocks the client.
-
-Depending on the antivirus that you're using, you should either turn it off so you can download the client or you can exclude the client from being flagged. Onix Client is not a virus of any sort. The launcher is open source; the source code can be viewed [here](https://github.com/notcarlton/OnixLauncher) if you want to compile it yourself or check if the code is safe.
-
-<table>
-<thead>
-<tr>
-<th style="text-align:center"><strong>Antivirus</strong></th>
-<th style="text-align:center"><strong>Exclude Links</strong></th>
-<th style="text-align:center"><strong>Disable Links</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Windows Defender</td>
-<td style="text-align:center"><a href="https://www.technipages.com/windows-10-how-to-exclude-a-file-from-windows-defender/">Exclude</a></td>
-<td style="text-align:center"><a href="https://support.microsoft.com/en-us/windows/turn-off-defender-antivirus-protection-in-windows-security-99e6004f-c54c-8509-773c-a4d776b77960">Disable</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Norton</td>
-<td style="text-align:center"><a href="https://www.lifewire.com/exclude-files-from-norton-antivirus-scans-153348#">Exclude</a></td>
-<td style="text-align:center"><a href="https://www.lifewire.com/disable-norton-antivirus-4589389">Disable</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Malwarebytes</td>
-<td style="text-align:center"><a href="https://support.malwarebytes.com/hc/en-us/articles/360039024133-Exclude-detections-in-Malwarebytes-for-Windows-v3">Exclude</a></td>
-<td style="text-align:center"><a href="https://support.malwarebytes.com/hc/en-us/articles/360038524894-Enable-or-disable-Real-Time-Protection-in-Malwarebytes-for-Windows-v3">Disable</a></td>
-</tr>
-<tr>
-<td style="text-align:center">McAfee</td>
-<td style="text-align:center"><a href="https://service.mcafee.com/?page=shell&shell=article-view&articleId=TS102056">Exclude</a></td>
-<td style="text-align:center"><a href="https://www.linksys.com/us/support-article?articleNum=135555">Disable</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Avast</td>
-<td style="text-align:center"><a href="https://support.avast.com/en-ph/article/Antivirus-scan-exclusions/">Exclude</a></td>
-<td style="text-align:center"><a href="https://bestantiviruspro.org/blog/how-to-temporarily-disable-avast/#:~:text=Go%20to%20the%20Windows%20taskbar,until%20computer%20restart%20OR%20permanently.">Disable</a></td>
-</tr>
-<tr>
-<td style="text-align:center">BitDefender</td>
-<td style="text-align:center"><a href="https://www.bitdefender.com/consumer/support/answer/13427/">Exclude</a></td>
-<td style="text-align:center"><a href="https://clean-my-pc.com/how-to-disable-bitdefender#:~:text=Disable%20Bitdefender%20Issues&amp;amp;text=Open%20the%20Bitdefender%20software%20application,option%20from%20the%20Shield%20tab.">Disable</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Kaspersky Internet Security</td>
-<td style="text-align:center"><a href="https://support.kaspersky.com/KESWin/10SP2/en-US/128138.htm">Exclude</a></td>
-<td style="text-align:center"><a href="https://support.kaspersky.com/KIS/2020/en-US/43539.htm">Disable</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Quick Heal</td>
-<td style="text-align:center"><a href="https://pastebinp.com/1qXb5ugXTJJvzPwN0grgHQ#X4eOM2tB_9A9D4HqARc8CZpnsDQkBgIsbHC_axVGAgg=">Exclude</a></td>
-<td style="text-align:center"><a href="https://www.quora.com/How-do-I-disable-Quick-Heal-antivirus-in-Windows-8-1">Disable</a></td>
-</tr>
-<tr>
-<td style="text-align:center">AVG</td>
-<td style="text-align:center"><a href="https://support.avg.com/SupportArticleView?l=en&urlname=AVG-Antivirus-scan-exclusions#:~:text=Open%20AVG%20AntiVirus%20and%20go,box,%20then%20click%20Add%20exception.">Exclude</a></td>
-<td style="text-align:center"><a href="https://pastebinp.com/KkUjBKhGXpr1rHXq5EVxQ#kK0YoBfCMex0gJyy33GH9mpp2P5cORVZjEhCzdx6a6U=">Disable</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Webroot</td>
-<td style="text-align:center"><a href="https://pastebinp.com/990CALwgMkEVszAPC1WBg#nHxmjWr0CKHZ-Kzmz11djBCbLmkkuE_iWawPdRuCJV0=">Exclude</a></td>
-<td style="text-align:center"><a href="https://community.webroot.com/tech-talk-7/how-can-i-turn-off-webroot-temporarily-337647">Disable</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Panda/Panda Dome</td>
-<td style="text-align:center"><a href="https://www.pandasecurity.com/en/support/card?id=55521">Exclude</a></td>
-<td style="text-align:center"><a href="https://www.techwalla.com/articles/how-to-disable-the-panda-antivirus#">Disable</a></td>
-</tr>
-<tr>
-<td style="text-align:center">Spectrum F-Secure</td>
-<td style="text-align:center"><a href="https://pastebinp.com/RuwyAM9BvnlJJO5GmXAw#RXthundQfjFjfWCDz-XjlpU4_zt-cXCXx3i0f0r6dcU=">Exclude</a></td>
-<td style="text-align:center"><a href="https://pastebinp.com/GfkArfGf8xP2bSTbgfIzJg#vxqH7m8Yweb2waI-MvjoAM4apryli6Cj_5fsf75pg5U=">Disable</a></td>
-</tr>
-<tr>
-<td style="text-align:center">PCMatic</td>
-<td style="text-align:center"><a href="https://forums.pcmatic.com/topic/203530-manually-adding-a-programservice-to-whitelist/">Exclude</a></td>
-<td style="text-align:center"><a href="https://forums.pcmatic.com/topic/205678-is-there-any-way-to-turn-pcmatic-off/">Disable</a></td>
-</tr>
-<tr>
-<td style="text-align:center">k7</td>
-<td style="text-align:center"><a href="https://support.k7computing.com/index.php?/selfhelp/view-article/How-can-I-manage-exclusion">Exclude</a></td>
-<td style="text-align:center"><a href="https://support.sathyainfo.com/kb/a239/how-do-i-disable-my-antivirus-program-in-windows.aspx">Disable</a></td>
-</tr>
-<tr>
-<td style="text-align:center">RAV Antivirus</td>
-<td style="text-align:center"><a href="https://www.reddit.com/r/RAVAntivirus/comments/tq31n5/how_to_exclude_files_or_folders_from_rav/">Exclude</a></td>
-<td style="text-align:center"><a href="https://howtoremove.guide/rav-antivirus-uninstall/">Uninstall</a></td>
-</tr>
-</tbody>
-</table>
-
-~~Avira users:~~
-~~Avira will not let you use Onix Client, even if it's disabled. We recommend you uninstall Avira until we get this issue sorted out with them.~~
-
-^^ This issue is now fixed.
-
-
-If you have an antivirus that's not included here or if a link stops working, you can DM [@ItzHugo#2308](https://discord.com/users/731013984710426694) or [@Isaiahluke40#3089](https://discord.com/users/397244496586211339) so we can fix it.
-
-If both of us are not online, we suggest going to [#make-a-ticket](https://discord.com/channels/814195071356370977/945717582269399050) and create a ticket. (Please wait patiently after making a ticket)
 
 # The Onix Client License
 
