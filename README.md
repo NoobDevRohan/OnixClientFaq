@@ -135,10 +135,6 @@ Depending on the antivirus that you're using, you should either turn it off so y
 ^^ This issue is now fixed.
 
 
-If you have an antivirus that's not included here or if a link stops working, you can DM [@ItzHugo#2308](https://discord.com/users/731013984710426694) or [@Isaiahluke40#3089](https://discord.com/users/397244496586211339) so we can fix it.
-
-If both of us are not online, we suggest going to [#make-a-ticket](https://discord.com/channels/814195071356370977/945717582269399050) and create a ticket. (Please wait patiently after making a ticket).
-
 ## 🔄 The launcher didn't auto update. How do I fix this?
 Press the Windows Key + R and paste the following:
 
