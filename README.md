@@ -275,7 +275,6 @@ Say ```.help``` in chat for a complete list of Onix commands.
 ## 🎥 How do I apply for Media Role/Rank in the Discord? (@Media)?
 
 Youtube Requirements:
-- 750+ Subs
 - 1k+ Subs
 - A video about Onix Client 
 - At least 10 videos
